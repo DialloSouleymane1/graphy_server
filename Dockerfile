@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:18.20.2
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
